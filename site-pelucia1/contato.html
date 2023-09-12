@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title> Pelúcias - Contato</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, inicial-scale=1" />
+    <link rel="icon" type="image/jpg" href="imagens/iconmm2.png" />
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<body>
+    <div id="header">
+        <h1><img src="imagens/logomm.jpg" /></h1>
+        <ul id="nav">
+            <li><a href="index.html">home</a></li>
+            <li><a href="sobre.html">sobre</a></li>
+            <li><a href="modelo.html">modelo</a></li>
+            <li><a href="contato.html" class="ativa">contato</a></li>
+        </ul>
+    </div>
+    <div id="section_c">
+        <div class="contato">
+            <h1> Fale com a gente !! ฅ^•ﻌ•^ฅ</h1>
+            <br>
+            <form name="contato" action="#" method="post">
+                <!--o controle label=etiqueta ajuda a acessibilidade: leitor de tela leem este item-->
+
+                <label for="nome">Nome: </label>
+
+                <input id="nome" type="text" required="required" name="nome" pattern="[a-zA-Z\s]+$"
+                    placeholder="Preencha aqui o seu nome!" title="Somente letras" autofocus />
+                <br>
+                <br>
+                <label for="nomeanim">Telefone:</label>
+
+                <input id="tel" type="number" required="required" name="tel" pattern="[0-9]"
+                    placeholder="Preencha aqui seu telefone!" title="Somente números" autofocus />
+                <br>
+                <br>
+                <label for="email">Email:</label>
+
+                <input id="email" type="email" required="required" name="email"
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]" placeholder="Preencha aqui o seu e-mail!"
+                    title="Somente letras" autofocus />
+                <br>
+                <br>
+                <label>Comentário:</label>
+
+                <input type="text" required="required" name="assunto" id="text3" size="50"
+                    placeholder="Preencha  aqui o assunto " required autofocus />
+                <br>
+                <br>
+                <textarea id="textarea" name="textarea " rows="10" cols="52"
+                    placeholder="Deixe aqui seu comentário."></textarea>
+                <input type="submit" value="Enviar">
+
+            </form>
+        </div>
+        <div class="contato1">
+            <a href="https://www.imagensanimadas.com/cat-hello-kitty-1250.htm" target="_blank"><img
+                    src="https://www.imagensanimadas.com/data/media/1250/hello-kitty-imagem-animada-0154.gif" border="0"
+                    alt="hello-kitty-imagem-animada-0154" /></a>
+
+        </div>
+    </div>
+
+    <div id="footer">
+        <p>Livia Ranite - &copy Todos os direitos reservados </p>
+    </div>
+
+</body>
+
+</html>

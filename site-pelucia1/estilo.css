@@ -1,0 +1,531 @@
+/*Arquivo CSS Pelúcia */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: #00000f;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif,
+    cursive;
+  margin-top: 3px;
+}
+
+/*Inicio do cabeçalho */
+#header {
+  width: 1000px;
+  height: 140px;
+  margin: 0px auto; /*centralizae*/
+  background: aliceblue;
+  border-radius: 1%;
+}
+
+#header h1 {
+  display: block; /*bloqueia linha*/
+  float: left;
+}
+
+#header h1 img {
+  width: 100px;
+  margin: 0px auto;
+  border-radius: 50%;
+}
+
+#nav {
+  list-style: none; /*retira marcadores*/
+  padding-left: 0px;
+  display: block;
+  float: left;
+  margin-left: 130px;
+  margin-top: 60px;
+}
+
+#nav li {
+  float: left;
+  /* deixa o menu horizontal*/
+  margin-left: 60px;
+}
+
+#nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-top: 8px;
+  color: #000000;
+  font-weight: bold;
+}
+
+#nav a:hover {
+  border-bottom: 5px solid #eb70a2;
+}
+
+ul#nav a.ativa {
+  border-bottom: 5px solid #f2267e;
+}
+/*fim do cabeçalho */
+
+#banner {
+  margin-top: 15px;
+  width: 1000px;
+  height: 650px;
+  margin: 0px auto;
+  position: relative;
+  border-radius: 5%;
+}
+
+#banner img {
+  margin-top: 3px;
+  width: 1000px;
+  height: 600px;
+  border-radius: 2%;
+}
+
+#section {
+  width: 1000px;
+  height: 150px;
+  background: #ffb8c7;
+  border-radius: 2%;
+  margin: 0px auto; /* sem pixel pode ser % ou Em todos */
+}
+
+.article {
+  width: 800px;
+  height: 120px;
+  float: left;
+  margin: 10px 100px;
+  border-radius: 2%;
+}
+
+.article h1 {
+  padding: 15px;
+  font-size: 100px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0px auto;
+}
+
+#footer {
+  width: 100%;
+  height: 35px;
+  background: #ff5e81;
+  margin: 0px auto;
+  padding-top: 25px;
+  position: absolute;
+  margin-bottom: 0px;
+}
+
+#footer p {
+  font-size: 12px;
+  text-align: center;
+}
+
+/*----------------------------------------------------------------------------*/
+/*Codificação da página Sobre*/
+#conteudo {
+  width: 1000px;
+  height: 400px;
+  background: #ffbfd1;
+  margin: 15px auto;
+  padding-left: 5px;
+  border-radius: 5%;
+}
+
+.artigo {
+  width: 480px;
+  height: 350px;
+  margin: 5px 8px;
+  float: left;
+  border-radius: 10%;
+  background-color: aliceblue;
+}
+
+.artigo p {
+  width: 400px;
+  height: 350px;
+  font-size: 18px;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.artigo h1 a img {
+  width: 500px;
+  height: 350px;
+  margin: 0px auto;
+}
+
+/*----------------------------------------------------------------------------*/
+
+/*Codificação da página Modelo*/
+#conteudo1 {
+  width: 1000px;
+  height: 5500px;
+  background: #ffbfd1;
+  margin: 15px auto;
+  padding-left: 5px;
+}
+
+.artigo1 {
+  width: 950px;
+  margin: 0 px auto;
+  float: left;
+  background: #ffbfd1;
+}
+
+.artigo1 h1 {
+  font-weight: bold;
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: aliceblue;
+}
+
+.artigo1 p {
+  font-weight: bold;
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: aliceblue;
+  border-radius: 2%;
+}
+
+.artigo1 ul {
+  padding-top: 15px;
+  font-size: 17px;
+  list-style: none; /*retira marcadores*/
+  padding-left: 0px;
+}
+
+.bixo1 {
+  width: 300px;
+  height: 100px;
+  margin: 0px auto;
+}
+
+.bixo1 h1 {
+  background-color: rgba(241, 62, 92, 0.582);
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.bixo1 img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.bixo2 {
+  width: 300px;
+  height: 100px;
+  margin: 0px auto;
+  margin-top: 300px;
+}
+
+.bixo2 h1 {
+  background-color: rgba(241, 62, 92, 0.582);
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.bixo2 img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.bixo3 {
+  width: 300px;
+  height: 100px;
+  margin: 0px auto;
+  margin-top: 300px;
+}
+
+.bixo3 h1 {
+  background-color: rgba(241, 62, 92, 0.582);
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.bixo3 img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.bixo4 {
+  width: 300px;
+  height: 100px;
+  margin: 0px auto;
+  margin-top: 300px;
+}
+
+.bixo4 h1 {
+  background-color: rgba(241, 62, 92, 0.582);
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.bixo4 img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.bixo5 {
+  width: 300px;
+  height: 100px;
+  margin: 0px auto;
+  margin-top: 300px;
+}
+
+.bixo5 h1 {
+  background-color: rgba(241, 62, 92, 0.582);
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.bixo5 img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.bixo6 {
+  width: 300px;
+  height: 100px;
+  margin: 0px auto;
+  margin-top: 300px;
+}
+
+.bixo6 h1 {
+  background-color: rgba(241, 62, 92, 0.582);
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.bixo6 img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.bixo7 {
+  width: 300px;
+  height: 100px;
+  margin: 0px auto;
+  margin-top: 300px;
+}
+
+.bixo7 h1 {
+  background-color: rgba(241, 62, 92, 0.582);
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.bixo7 img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.bixo8 {
+  width: 300px;
+  height: 100px;
+  margin: 0px auto;
+  margin-top: 300px;
+}
+
+.bixo8 h1 {
+  background-color: rgba(241, 62, 92, 0.582);
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.bixo8 img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.bixo9 {
+  width: 300px;
+  height: 100px;
+  margin: 0px auto;
+  margin-top: 300px;
+}
+
+.bixo9 h1 {
+  background-color: rgba(241, 62, 92, 0.582);
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.bixo9 img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.bixo10 {
+  width: 300px;
+  height: 100px;
+  margin: 0px auto;
+  margin-top: 300px;
+}
+
+.bixo10 h1 {
+  background-color: rgba(241, 62, 92, 0.582);
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.bixo10 img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.bixo11 {
+  width: 300px;
+  height: 100px;
+  margin: 0px auto;
+  margin-top: 300px;
+}
+
+.bixo11 h1 {
+  background-color: rgba(241, 62, 92, 0.582);
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.bixo11 img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.bixo12 {
+  width: 300px;
+  height: 100px;
+  margin: 0px auto;
+  margin-top: 300px;
+}
+
+.bixo12 h1 {
+  background-color: rgba(241, 62, 92, 0.582);
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.bixo12 img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.bixo13 {
+  width: 300px;
+  height: 100px;
+  margin: 0px auto;
+  margin-top: 300px;
+}
+
+.bixo13 h1 {
+  background-color: rgba(241, 62, 92, 0.582);
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.bixo13 img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+/*-------------------------------------------------------------------*/
+/*codificação pag Contato*/
+#section_c {
+  width: 1000px;
+  height: 500px;
+  background: #ffbfd1;
+  margin: 0px auto;
+}
+
+.contato {
+  width: 500px;
+  height: 370px;
+  margin: 5px 5px;
+  margin-left: 10px;
+  float: left;
+}
+.contato h1 {
+  font-size: 25px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.contato textarea {
+  resize: none;
+}
+
+.contato1 {
+  width: 450px;
+  height: 370px;
+  margin: 5px 5px;
+  float: left;
+}
+
+/*.contato1 h1 {
+  margin-top: 260px;
+  font-family: arial;
+  font-size: 18px;
+  font-weight: bold;
+}*/
+
+.contato1 a img {
+  width: 200px;
+  height: 200px;
+  padding: 100px 100px;
+}
+
+/*responsividade*/
+@media screen and (min-width: 50px) and (max-width: 568px) {
+  body,
+  div {
+    background: rgb(247, 161, 168);
+  }
+  #footer {
+    margin: 0px auto;
+  }
+}
+@media screen and (min-width: 569px) and (max-width: 767px) {
+  body,
+  div {
+    background: rgb(255, 105, 155);
+  }
+  #footer {
+    margin: 0px auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 2000px) {
+  /*ipad*/
+  body,
+  div {
+    background: rgb(253, 122, 144);
+  }
+  #footer {
+    margin: 0px auto;
+  }
+}
